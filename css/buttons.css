@@ -1,0 +1,37 @@
+.dark{
+    background-color: rgb(61, 61, 165);
+}
+
+.green{
+    background-color: rgb(36, 138, 36);
+}
+
+.blue{
+    background-color: aquamarine;
+}
+
+.laufey{
+    background-color: bisque;
+}
+
+.gradient{
+    background: rgb(52,89,251);
+background: linear-gradient(3deg, rgba(52,89,251,1) 0%, rgba(251,105,150,1) 100%);
+}
+
+.bea{
+    background-color: blanchedalmond;
+}
+
+.faye{
+    background: rgb(52,89,251);
+background: linear-gradient(3deg, rgba(52,89,251,1) 0%, rgba(6,7,65,1) 100%);
+}
+
+.pink{
+    background-color: pink;
+}
+
+.share{
+    background-color: cornflowerblue;
+}
