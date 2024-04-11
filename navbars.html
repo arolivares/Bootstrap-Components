@@ -9,34 +9,32 @@
 </head>
   <body>
     
-    <nav class="navbar navbar-expand-lg bg-primary-subtle">
+    <nav class="navbar fixed-top navbar-expand-lg bg-primary-subtle">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">Arii</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarOne" aria-controls="navbarOne" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse" id="navbarOne">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#full1">Full 1</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#full2">Full 2</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Dropdown
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#full3">Full 3</a></li>
+                  <li><a class="dropdown-item" href="#full4">Full 4</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li> -->
+                  <li><a class="dropdown-item" href="#full5">Full 5</a></li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
+              
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -47,7 +45,7 @@
       </nav>
 
 
-    <nav class="navbar navbar-expand-lg  bg-gradient">
+    <nav class="navbar  fixed-bottom navbar-expand-lg  bg-gradient">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">Arii</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,38 +54,32 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link " href="#A">1 & 2</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#B">3 & 4</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#C">5 & 6</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#D">7 & 8</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#E">9 & 10</a>
               </li>
 
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
+              
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            
           </div>
-          <!-- put dropdown here -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
+          
         </div>
       </nav>
 
+  
       <div class="container-fluid">
-        <div class="row">
+        <div id="A" class="row">
             <div class="col-6">
                 <h1>Paragraph 1</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi similique consequuntur sunt illum ducimus quibusdam eos distinctio. Repudiandae incidunt doloribus cumque nesciunt dolores ex fugit dignissimos officia distinctio? Quibusdam, asperiores?</p>
@@ -97,7 +89,13 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, eius at nesciunt quo, asperiores quia eum recusandae culpa non consequatur harum ex. Eius, consequuntur natus. Iusto minus tempora voluptates fugit!</p>
             </div>
         </div>
-        <div class="row">
+        <div id="full1" class="row">
+          <div class="col-12">
+            <h1>Full Row 1</h1>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. At temporibus sed deleniti praesentium cumque facilis minus laborum nostrum similique assumenda aut tenetur sapiente, dolorem eius quasi non doloribus dignissimos hic!</h2>
+          </div>
+        </div>
+        <div id="B" class="row">
             <div class="col-6">
                 <h1>Paragraph 3</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi similique consequuntur sunt illum ducimus quibusdam eos distinctio. Repudiandae incidunt doloribus cumque nesciunt dolores ex fugit dignissimos officia distinctio? Quibusdam, asperiores?</p>
@@ -107,7 +105,13 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, eius at nesciunt quo, asperiores quia eum recusandae culpa non consequatur harum ex. Eius, consequuntur natus. Iusto minus tempora voluptates fugit!</p>
             </div>
         </div>
-        <div class="row">
+        <div id="full2" class="row">
+          <div class="col-12">
+            <h1>Full Row 2</h1>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. At temporibus sed deleniti praesentium cumque facilis minus laborum nostrum similique assumenda aut tenetur sapiente, dolorem eius quasi non doloribus dignissimos hic!</h2>
+          </div>
+        </div>
+        <div id="C" class="row">
             <div class="col-6">
                 <h1>Paragraph 5</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi similique consequuntur sunt illum ducimus quibusdam eos distinctio. Repudiandae incidunt doloribus cumque nesciunt dolores ex fugit dignissimos officia distinctio? Quibusdam, asperiores?</p>
@@ -118,6 +122,12 @@
             </div>
         </div>
         <div class="row">
+          <div id="full3" class="col-12">
+            <h1>Full Row 3</h1>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. At temporibus sed deleniti praesentium cumque facilis minus laborum nostrum similique assumenda aut tenetur sapiente, dolorem eius quasi non doloribus dignissimos hic!</h2>
+          </div>
+        </div>
+        <div id="D" class="row">
             <div class="col-6">
                 <h1>Paragraph 7</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi similique consequuntur sunt illum ducimus quibusdam eos distinctio. Repudiandae incidunt doloribus cumque nesciunt dolores ex fugit dignissimos officia distinctio? Quibusdam, asperiores?</p>
@@ -127,7 +137,13 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, eius at nesciunt quo, asperiores quia eum recusandae culpa non consequatur harum ex. Eius, consequuntur natus. Iusto minus tempora voluptates fugit!</p>
             </div>
         </div>
-        <div class="row">
+        <div id="full4" class="row">
+          <div class="col-12">
+            <h1>Full Row 4</h1>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. At temporibus sed deleniti praesentium cumque facilis minus laborum nostrum similique assumenda aut tenetur sapiente, dolorem eius quasi non doloribus dignissimos hic!</h2>
+          </div>
+        </div>
+        <div id="E" class="row">
             <div class="col-6">
                 <h1>Paragraph 9</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi similique consequuntur sunt illum ducimus quibusdam eos distinctio. Repudiandae incidunt doloribus cumque nesciunt dolores ex fugit dignissimos officia distinctio? Quibusdam, asperiores?</p>
@@ -136,6 +152,12 @@
                 <h1>Paragraph 10</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, eius at nesciunt quo, asperiores quia eum recusandae culpa non consequatur harum ex. Eius, consequuntur natus. Iusto minus tempora voluptates fugit!</p>
             </div>
+        </div>
+        <div id="full5" class="row">
+          <div class="col-12">
+            <h1>Full Row 5</h1>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. At temporibus sed deleniti praesentium cumque facilis minus laborum nostrum similique assumenda aut tenetur sapiente, dolorem eius quasi non doloribus dignissimos hic!</h2>
+          </div>
         </div>
       </div>
 
